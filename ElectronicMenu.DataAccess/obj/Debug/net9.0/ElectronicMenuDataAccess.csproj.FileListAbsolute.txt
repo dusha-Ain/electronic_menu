@@ -1,0 +1,11 @@
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\bin\Debug\net9.0\ElectronicMenuDataAccess.deps.json
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\bin\Debug\net9.0\ElectronicMenuDataAccess.dll
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\bin\Debug\net9.0\ElectronicMenuDataAccess.pdb
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.AssemblyInfoInputs.cache
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.AssemblyInfo.cs
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.csproj.CoreCompileInputs.cache
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.dll
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\refint\ElectronicMenuDataAccess.dll
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ElectronicMenuDataAccess.pdb
+D:\IT проекты\ElecronicMenu.WebAPI\ElectronicMenuDataAccess\obj\Debug\net9.0\ref\ElectronicMenuDataAccess.dll
