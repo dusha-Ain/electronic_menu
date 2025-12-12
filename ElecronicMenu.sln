@@ -1,12 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElecronicMenu.WebAPI", "ElecronicMenu.WebAPI\ElecronicMenu.WebAPI.csproj", "{4EB7AECC-F34B-42D5-9511-1B7B17EDBE59}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicMenu.DataAccess", "ElectronicMenu.DataAccess\ElectronicMenu.DataAccess.csproj", "{B34D77F3-5764-46B3-9E50-51ADF0715DB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicMenu.BL", "ElectronicMenu.BL\ElectronicMenu.BL.csproj", "{B00EDA2B-2504-4F64-AD00-341362393AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicMenu.Repository", "ElectronicMenu.Repository\ElectronicMenu.Repository.csproj", "{3E7BC626-C30A-4F0E-B07C-FFC984D0334A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectronicMenu.Service", "ElectronicMenu.Service\ElectronicMenu.Service.csproj", "{2DD7F5D8-6F02-4EA0-983B-B5ACC6A0ED8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,10 +12,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EB7AECC-F34B-42D5-9511-1B7B17EDBE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EB7AECC-F34B-42D5-9511-1B7B17EDBE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EB7AECC-F34B-42D5-9511-1B7B17EDBE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EB7AECC-F34B-42D5-9511-1B7B17EDBE59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B34D77F3-5764-46B3-9E50-51ADF0715DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B34D77F3-5764-46B3-9E50-51ADF0715DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B34D77F3-5764-46B3-9E50-51ADF0715DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,9 +20,9 @@ Global
 		{B00EDA2B-2504-4F64-AD00-341362393AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B00EDA2B-2504-4F64-AD00-341362393AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B00EDA2B-2504-4F64-AD00-341362393AE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E7BC626-C30A-4F0E-B07C-FFC984D0334A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E7BC626-C30A-4F0E-B07C-FFC984D0334A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E7BC626-C30A-4F0E-B07C-FFC984D0334A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E7BC626-C30A-4F0E-B07C-FFC984D0334A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD7F5D8-6F02-4EA0-983B-B5ACC6A0ED8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD7F5D8-6F02-4EA0-983B-B5ACC6A0ED8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD7F5D8-6F02-4EA0-983B-B5ACC6A0ED8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD7F5D8-6F02-4EA0-983B-B5ACC6A0ED8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,15 +1,21 @@
-var builder = WebApplication.CreateBuilder(args);
+using ElectronicMenu.Service.IoC;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json", optional: false)
+    .Build();
+
+var builder = WebApplication.CreateBuilder(args);
+SerilogConfigurator.ConfigureServices(builder);
+SwaggerConfigurator.ConfigureServices(builder.Services);
 
 var app = builder.Build();
+
+SerilogConfigurator.ConfigureApplication(app);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    SwaggerConfigurator.ConfigureApplication(app);
 }
 
 app.UseHttpsRedirection();
