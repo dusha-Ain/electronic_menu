@@ -43,4 +43,4 @@
 - Логирование действий пользователей и администраторов (опционально)
 
 ### ER-диаграмма БД
-[![img.png](img.png)](https://github.com/dusha-Ain/electronic_menu/blob/master/ER_Model.jpg)
+![ER Model](https://raw.githubusercontent.com/dusha-Ain/electronic_menu/master/ER_Model.jpg)
