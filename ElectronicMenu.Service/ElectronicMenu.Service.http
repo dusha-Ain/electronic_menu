@@ -1,6 +1,6 @@
 @ElectronicMenu.Service_HostAddress = http://localhost:5235
 
-GET {{ElectronicMenu.Service_HostAddress}}/weatherforecast/
+GET {{ElectronicMenu.Service_HostAddress}}/ElectronicMenu/
 Accept: application/json
 
 ###

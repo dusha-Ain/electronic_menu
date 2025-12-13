@@ -21,12 +21,5 @@ public static class SerilogConfigurator
     public static void ConfigureApplication(IApplicationBuilder app)
     {
         app.UseSerilogRequestLogging();
-        app.Use(async (httpContext, next) =>
-        {
-            using (LogContext.PushProperty("CorrelationId", httpContext.TraceIdentifier))
-            {
-                await next();
-            }
-        });
     }
 }
